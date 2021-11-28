@@ -77,7 +77,7 @@ request(options, function (error, response) {
 
 ```
 
-## Listando Único Usuário Cadastrado
+## Listando Usuário Cadastrado
 
 Após gerar o token para listar um único é nescessário enviar um requisição do tipo GET para http://localhost:3000/api/usuario/1
 Apenas é nescessário informar o ID do usuário na própria URL de requisição e o token de acesso no HEADER
@@ -149,7 +149,7 @@ Em resposta de uma requisição do tipo POST para http://localhost:3000/api/cada
 
 ```
 
-## Listando Todos os Usuários Cadastrados
+## Listando Usuários Cadastrados
 
 Em resposta de uma requisição do tipo GET para http://localhost:3000/api/usuarios
 
@@ -175,7 +175,7 @@ Em resposta de uma requisição do tipo GET para http://localhost:3000/api/usuar
 ]
 ```
 
-## Listando Um Único Usuário Cadastrado
+## Listando Usuário Cadastrado
 
 Em resposta de uma requisição do tipo GET para http://localhost:3000/api/usuario/1
 
