@@ -1,3 +1,16 @@
+# Instalação
+
+Usar arquivo usuario.sql para criar a base de dados da api depois configurar os dados da conexão com o banco de dados no arquivo .env
+
+```bash
+JWT_SECRET=a36f81d1-1b41-4206-882e-d4828f8bb53c
+HOST=localhost
+USER=root
+PASS=
+DB=usuario
+PORT=3306
+```
+
 # Requisição
 
 ## Gerando token

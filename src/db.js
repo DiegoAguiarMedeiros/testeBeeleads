@@ -1,7 +1,9 @@
+const {HOST,USER,PASS,DB,PORT} = process.env
+
 async function connect() {
     if (global.connection && global.connection !== 'disconnected') { return global.connection }
     const mysql = require("mysql2/promise")
-    const connection = mysql.createConnection("mysql://root:@localhost:3306/usuario")
+    const connection = mysql.createConnection("mysql://"+USER+":"+PASS+"@"+HOST+":"+PORT+"/"+DB+"")
     console.log("Conectado ao banco de dados")
     global.connection = connection
     return connection
